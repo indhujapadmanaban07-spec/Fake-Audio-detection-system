@@ -1,0 +1,6 @@
+@echo off
+echo Installing requirements...
+pip install -r requirements.txt
+echo Starting Fake Audio Detection System...
+streamlit run ui/app.py
+pause
